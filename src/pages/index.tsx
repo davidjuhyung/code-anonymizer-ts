@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
 
-import HomeContent from "../sections/home/HomeContent";
-import { ThemeWrapper } from "../theme";
+import HomeContent from '../sections/home/HomeContent';
+import { ThemeWrapper } from '../theme';
 
 const Home = () => {
-  return (
-    <>
-      <title>TSS and Gatsby</title>
+	return (
+		<>
+			<title>Code Anonymizer</title>
 
-      <ThemeWrapper>
-        <HomeContent />
-      </ThemeWrapper>
-    </>
-  );
+			<ThemeWrapper>
+				<HomeContent />
+			</ThemeWrapper>
+		</>
+	);
 };
 
 export default Home;
